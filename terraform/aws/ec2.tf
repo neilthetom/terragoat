@@ -30,6 +30,7 @@ EOF
     yor_trace            = "347af3cd-4f70-4632-aca3-4d5e30ffc0b6"
   })
 }
+export AWS_SECRET_ACCESS_KEY=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMAAAKEYZZZZ
 
 resource "aws_ebs_volume" "web_host_storage" {
   # unencrypted volume
